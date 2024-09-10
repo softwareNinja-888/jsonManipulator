@@ -2,3 +2,24 @@
   text-align: center;
 
 }
+
+.form {
+  display: flex;
+  flex-direction: column;
+  max-width: 30vw;
+  gap: 25px;
+  margin-top: 40px;
+}
+
+.analyze{
+  border: 1px solid white ;
+  background-color: aliceblue;
+  padding: 6px;
+  border-radius: 6px;
+  transition: .4s ease-in;
+}
+.analyze:hover{
+  background-color: #0ea5e9;
+  color: white;
+  border: 1px solid white;
+}
